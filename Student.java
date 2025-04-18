@@ -3,8 +3,7 @@ public class Student extends Person{
   private double myGPA; // grade point average
 
   // constructor
-  public Student(String name, int age, String gender,
-            String idNum, double gpa){
+  public Student(String name, int age, String gender, String idNum, double gpa){
     // use the super class' constructor
     super(name, age, gender);
 
